@@ -16,7 +16,7 @@ Some creative elements are derived from the **Creative’s Office Assets**. The 
 ---
 
 ## How to Run
-1. Clone or download the project folder. You can also visit the deployed Github Pages Website at 
+1. Clone or download the project folder. You can also visit the deployed Github Pages Website at https://jhondenardfirme.github.io/AWSCC-PUP-Manila/
 2. Open the project in **Visual Studio Code (VSCode)**.  
 3. Use the **VSCode HTML Viewer** or the **Live Server extension** to preview the webpage in your browser.  
 
