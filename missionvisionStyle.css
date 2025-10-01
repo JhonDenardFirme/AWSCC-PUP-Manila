@@ -1,0 +1,117 @@
+.missionvision-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-top: -4rem;
+    width: full;
+    padding: 3rem 10rem;
+}
+
+.mission-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
+}
+
+.mission-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.mission-box {
+    position: relative;
+    display: inline-block;
+}
+
+.mission-box-img {
+    height: 12rem;
+    width: auto;
+    display: block;
+}
+
+.mission-text {
+    font-family: 'Amazon Ember', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 60%;
+    margin-top: 0.5rem;
+
+}
+
+
+
+
+/* Tablet (width <= 1000px) */
+@media (max-width: 1000px) {
+.missionvision-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin-top: -4rem;
+    width: full;
+    padding: 1rem 3rem;
+}
+
+
+}
+
+
+/* Mobile*/
+@media (max-width: 500px) {
+.missionvision-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin-top: 4rem;
+    width: full;
+    padding: 1rem 3rem;
+}
+
+.mission-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
+}
+
+.mission-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.mission-box {
+    position: relative;
+    display: inline-block;
+}
+
+.mission-box-img {
+    height: 9rem;
+    width: auto;
+    display: block;
+}
+
+.mission-text {
+    font-family: 'Amazon Ember', Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 60%;
+    margin-top: 0.5rem;
+
+}
+
+}

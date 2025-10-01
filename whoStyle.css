@@ -1,0 +1,163 @@
+.who-section {
+    width: full;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 128px
+}
+
+
+.text-part {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 45%;
+
+    align-items: end;
+}
+
+.who-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+.who-desc {
+    font-family: 'Amazon Ember', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: end;
+}
+
+.who-alf {
+    height: 70vh;
+    width: auto;
+}
+
+#who-alf {
+    position: relative;
+    animation: ufo-levitate 3s ease-in-out infinite;
+}
+
+@keyframes ufo-levitate {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        rotate: 3deg;
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+/* Tablet (width <= 1000px) */
+@media (max-width: 1000px) {
+.who-section {
+    width: full;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 64px
+}
+
+
+.text-part {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 45%;
+
+    align-items: end;
+}
+
+.who-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: end;
+}
+
+.who-desc {
+    font-family: 'Amazon Ember', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: end;
+}
+
+.who-alf {
+    height: 40vh;
+    width: auto;
+}
+
+#who-alf {
+    position: relative;
+    animation: ufo-levitate 3s ease-in-out infinite;
+}
+
+
+
+}
+
+
+
+/* Mobile*/
+@media (max-width: 500px) {
+.who-section {
+    width: full;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 0px
+}
+
+.text-part {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 45%;
+
+    align-items: end;
+}
+
+.who-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.who-desc {
+    font-family: 'Amazon Ember', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.who-alf {
+    height: 40vh;
+    width: auto;
+}
+
+#who-alf {
+    position: relative;
+    animation: ufo-levitate 3s ease-in-out infinite;
+}
+
+}

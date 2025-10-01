@@ -1,0 +1,162 @@
+.department-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.department-section-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+
+.department-card-container {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem 2rem;
+    position: relative;
+    scroll-behavior: smooth;
+    margin-top: -2rem;
+}
+
+
+.department-card-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.department-card-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.department-card-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.department-card-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+.department-card-container {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+
+
+
+
+
+
+
+.department-card-item {
+    position: relative;
+    overflow: visible;
+    margin-top: 5rem;
+}
+
+.department-card-img {
+    height: 28rem;
+    width: auto;
+}
+
+.department-logo-holder {
+    height: 9rem;
+    width: 9rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(89%, -50%);
+
+    border: 2px solid white;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.department-logo-img {
+    height: 90%;
+    width: auto;
+}
+
+.dept-details-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 6rem;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dept-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.dept-details-textcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 18rem;
+    padding: 1rem;
+}
+
+.dept-details {
+    text-align: center;
+    width: 75%;
+}
+
+.dept-divider {
+    width: 20rem;
+    height: auto;
+}
+
+
+
+
+
+/* Mobile*/
+@media (max-width: 500px) {
+    .department-section-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+
+.department-card-container {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+    scroll-behavior: smooth;
+    margin-top: -28rem;
+    transform: scale(70%);
+    margin-bottom: -24rem;
+
+}
+
+.department-card-item {
+    position: relative;
+    overflow-y: visible;
+
+}
+
+}

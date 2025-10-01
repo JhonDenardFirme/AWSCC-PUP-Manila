@@ -1,0 +1,329 @@
+.banner-section {
+  background: url("/assets/images/BannerBG.png") center / cover no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+
+  color: #fff;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.banner-texts {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+
+.itsalways {
+  width: 100%;
+  height: 6rem;
+  object-fit: contain;
+  margin-left: -8rem;
+}
+
+.dayone {
+  width: 100%;
+  height: 14rem;
+  object-fit: contain;
+  margin-top: -5rem;
+}
+
+.alf-section {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.banner-alf {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#banner-alf {
+  position: absolute;
+  right: -7%;
+  bottom: -5%;
+  height: 90%;
+  width: auto;
+  object-fit: cover;
+}
+
+
+.divider1 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2.5rem;
+  margin-top: -1.5rem;
+}
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.dot {
+  background-color: white;
+  border-radius: 100%;
+  height: 0.4rem;
+  width: 0.4rem;
+}
+
+.line1 {
+  height: 0.1rem;
+  width: 36rem;
+  background-color: white;
+}
+
+
+.awscctext {
+  height: 4rem;
+  width: 100%;
+  margin-left: 0.5rem;
+}
+
+
+
+
+
+
+
+
+/* Tablet  */
+@media (max-width: 1000px) {
+
+  .banner-section {
+    background: url("/assets/images/BannerBG.png") center / cover no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+
+    color: #fff;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .banner-texts {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+
+  .itsalways {
+    width: 100%;
+    height: 4rem;
+    object-fit: contain;
+    margin-left: -3.5rem;
+  }
+
+  .dayone {
+    width: 100%;
+    height: 8rem;
+    object-fit: contain;
+    margin-top: -2.5rem;
+
+
+  }
+
+  .alf-section {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .banner-alf {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #banner-alf {
+    position: absolute;
+    right: -12%;
+    bottom: -5%;
+    height: 90%;
+    width: auto;
+    object-fit: cover;
+  }
+
+
+  .divider1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: -1rem;
+  }
+
+  .dots {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .dot {
+    background-color: white;
+    border-radius: 100%;
+    height: 0.2rem;
+    width: 0.2rem;
+  }
+
+  .line1 {
+    height: 0.1rem;
+    width: 26rem;
+    background-color: white;
+  }
+
+
+  .awscctext {
+    height: 2.5rem;
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+
+
+
+
+}
+
+
+
+
+
+/* Mobile*/
+@media (max-width: 500px) {
+
+  .banner-section {
+    background: url("/assets/images/BannerBG.png") center / cover no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+
+    color: #fff;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .banner-texts {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8rem;
+    
+  }
+
+
+  .itsalways {
+    width: 100%;
+    height: 4rem;
+    object-fit: contain;
+
+  }
+
+  .dayone {
+    width: 100%;
+    height: 8rem;
+    object-fit: contain;
+    margin-top: -2.5rem;
+  }
+
+  .alf-section {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .banner-alf {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #banner-alf {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: -5%;
+    height: 90%;
+    width: auto;
+    object-fit: cover;
+  }
+
+
+  .divider1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: -0.1rem;
+    margin-top: -1rem;
+    width: 100%;
+  }
+
+  .dots {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .dot {
+    background-color: white;
+    border-radius: 100%;
+    height: 0.2rem;
+    width: 0.2rem;
+  }
+
+  .line1 {
+    height: 0.1rem;
+    width: 90%;
+    background-color: white;
+  }
+
+
+  .awscctext {
+    height: 2.5rem;
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+
+
+
+
+}

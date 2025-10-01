@@ -1,0 +1,144 @@
+.office-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.office-section-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+.office-container {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+    margin-top: 2rem;
+    scroll-snap-type: x mandatory;
+}
+
+
+.office-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+
+
+.office-icon-holder {
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.office-icon-holder:hover {
+    border: 1px solid #f5ac1c;
+}
+
+.office-title {
+    font-family: 'The Bold Font', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+
+}
+
+.office-icon {
+    transition: all 0.5s ease-in-out;
+}
+
+.office-icon:hover {
+    transform: scale(120%);
+    cursor: pointer;
+}
+
+
+
+
+/* Tablet (width <= 1000px) */
+
+@media (max-width: 1000px) {
+
+    .office-container {
+        width: 100%;
+        overflow-x: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 4.5rem;
+        margin-top: 1rem;
+        position: relative;
+        scroll-behavior: smooth;
+
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+        scroll-snap-type: x mandatory;
+
+        padding: 0 2rem;
+        scroll-padding: 0 2rem;
+
+    }
+
+
+    .office-container::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    .office-container::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .office-container::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+    }
+
+    .office-container::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .office-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        scroll-snap-align: start;
+    }
+}
+
+
+/* Mobile*/
+@media (max-width: 500px) {
+    .office-container {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4.5rem;
+        margin-top: 2rem;
+        position: relative;
+        scroll-behavior: smooth;
+
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+        scroll-snap-type: x mandatory;
+
+        padding: 0 2rem;
+        scroll-padding: 0 2rem;
+
+    }
+
+}
