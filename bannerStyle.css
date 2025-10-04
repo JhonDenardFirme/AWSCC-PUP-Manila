@@ -108,7 +108,7 @@
 @media (max-width: 1000px) {
 
   .banner-section {
-    background: url("/assets/images/BannerBG.png") center / cover no-repeat;
+    background: url("./assets/images/BannerBG.png") center / cover no-repeat;
     min-height: 100vh;
     width: 100%;
     background-attachment: fixed;
